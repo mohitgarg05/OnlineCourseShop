@@ -1,0 +1,9 @@
+@media  (max-width : 992px)  {
+    #home-cover{
+        width: 100%;
+    }
+    .about-bg-diagonal{
+        border: none;
+        width: 100%;
+    }
+ }
