@@ -46,7 +46,7 @@ class Home extends Component{
                                 <div className="col-md-3 col-sm-6">
                                     <Courses />
                                 </div>
-                                <div className="col-md-3 col-sm-6 col-auto">
+                                <div className="col-md-3 col-sm-6">
                                     <Courses />
                                 </div>
                                 <div className="col-md-3 col-sm-6">
