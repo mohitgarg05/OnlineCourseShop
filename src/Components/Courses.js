@@ -10,10 +10,10 @@ const Courses = () => {
                 </div>
                 <div>
                 <a>
-                    <button className=" btn-general">Buy Course</button>
+                    <button className="btn-general">Buy Course</button>
                 </a>
                 <a>
-                    <button className=" btn-general">View Course</button>
+                    <button className="btn-general">View Course</button>
                 </a>
                 </div>
             </div>

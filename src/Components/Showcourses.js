@@ -7,7 +7,7 @@ const Showcourses = () => {
             
                  <div class="content-box">
                     <Navbar />
-                    <div class="content-title" >
+                    <div class="content-title" style={{marginTop:"50px"}}>
                         <h3 >ALL COURSES</h3>
                         <div class="content-title-underline"></div>
                     </div>

@@ -10,6 +10,11 @@
 body,html,#root{
   height: 100%;
 }
+/* Navbar */
+.navbar .navbar-brand img{
+  width: 90px;
+  height: 65px;
+}
 /* ======================================
           Home
 =========================================== */
@@ -63,7 +68,7 @@ body,html,#root{
 .content-title-underline{
   width: 30px;
   height: 3px;
-  background-color: #34c6d3;
+  background-color: rgb(19,35,62);
   margin: 0 auto 20px auto;
 }
 .content-box{
@@ -81,7 +86,7 @@ body,html,#root{
 .courses-content{
   /* border: solid; */
   height: 303px;
-  /* border-color: #34c6d3 ; */
+  /* border-color: rgb(19,35,62) ; */
   /* background-color: #3492d3; */
  
 }
@@ -105,12 +110,12 @@ body,html,#root{
   background-color: white;
   width: 100%;
  
-  border-color: #34c6d3 ;
-  color: #34c6d3;
+  border-color: rgb(19,35,62) ;
+  color: rgb(19,35,62);
 }
 
 .btn-general:hover{
-  background-color: #34c6d3 !important;
+  background-color: rgb(19,35,62) !important;
   color: white !important;
   border-color: none;
 
@@ -141,8 +146,8 @@ body,html,#root{
 
 
 .btn-grey{
-  border-color: #34c6d3 ;
-  color: #34c6d3;
+  border-color: rgb(19,35,62) ;
+  color: rgb(19,35,62);
 }
 
 #about .content-title h3{
@@ -236,19 +241,19 @@ body,html,#root{
   background-color: white;
   width: 100%;
  
-  border-color: #34c6d3 ;
-  color: #34c6d3;
+  border-color: rgb(19,35,62) ;
+  color: rgb(19,35,62);
 }
 
 .btn-general2:hover{
-  background-color: #34c6d3 !important;
+  background-color: rgb(19,35,62) !important;
   color: white !important;
   border-color: none;
 
 }
 #login-heading form label{
   font-size: 20px;
-  color: #34c6d3;
+  color: rgb(19,35,62);
 }
 
 /* History */
@@ -262,6 +267,7 @@ body,html,#root{
 
 .history-wrapper .hisory-table table tr{
   border: solid;
+
   
 }
 .history-wrapper .hisory-table table td{
@@ -271,6 +277,10 @@ body,html,#root{
 .history-wrapper .hisory-table table th{
   border: solid;
   padding: 15px;
+  background-color: black;
+  color: white;
+  font-size:20px;
+  text-transform: uppercase;
 }
 
 
@@ -286,16 +296,22 @@ body,html,#root{
 ======================= */
 
 .profile-pic img{
-  height: 93vh;
-  margin-top: 50px;
+  height: 88vh;
+  margin-top: 90px;
 }
 
 .profile-info .profile-heading{
-  margin-top: 100px;
+  margin-top: 150px;
+ 
+  width: 400px;
+  margin-left: 40px;
+  background-color: black;
+  
 }
 
 .profile-info .profile-heading h1{
   text-align: center;
+  color: white;
 }
 .profile-info .profile-details{
   text-align: center;

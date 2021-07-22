@@ -23,9 +23,7 @@ const Login = () => {
                             
                                 <input class="col-auto form-group" placeholder="Password"></input>
                             </div>
-                            <div className="row" style={{marginLeft:"120px"}}>
-                                <a href="/signup">Signup</a>
-                            </div>
+                           
                             <div className="row login-btn">
                                 <button className="col-auto btn-general2">Login</button>
                             </div>

@@ -7,11 +7,11 @@ const Profile = () => {
                 <Navbar />
             </div>
             <div className="row">
-                <div className="col-md-6 profile-pic">
+                <div className="col-md-8 profile-pic">
                      {/* users image will come here */}
                     <img className="col-md-12" src={Logo}></img> 
                 </div>
-                <div className="col-md-6 profile-info">
+                <div className="col-md-4 profile-info">
                     <div className="row profile-heading">
                         <h1>MY PROFILE</h1>
                     </div>
